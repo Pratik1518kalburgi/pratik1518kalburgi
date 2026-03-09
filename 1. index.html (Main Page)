@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Tourism Website</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+<h1>Welcome to Incredible Tourism</h1>
+<p>Explore Places, Culture, Food and Travel</p>
+</header>
+
+<nav>
+<a href="home.html">Home</a>
+<a href="places.html">Places</a>
+<a href="culture.html">Culture</a>
+<a href="travelguide.html">Travel Guide</a>
+<a href="food.html">Food</a>
+<a href="enquiry.html">Enquiry</a>
+</nav>
+
+<section class="hero">
+<h2>Discover Amazing Destinations</h2>
+<p>Plan your journey and explore the beauty of our destination.</p>
+</section>
+
+<footer>
+<p>© 2026 Tourism Website</p>
+</footer>
+
+</body>
+</html>
