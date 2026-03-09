@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Tourist Enquiry</title>
+<link rel="stylesheet" href="style.css">
+<script src="script.js"></script>
+</head>
+
+<body>
+
+<header>
+<h1>Tourist Enquiry Form</h1>
+</header>
+
+<nav>
+<a href="index.html">Home</a>
+<a href="places.html">Places</a>
+<a href="culture.html">Culture</a>
+<a href="travelguide.html">Travel Guide</a>
+<a href="food.html">Food</a>
+<a href="enquiry.html">Enquiry</a>
+</nav>
+
+<section>
+
+<form onsubmit="return validateForm()">
+
+<label>Name</label>
+<input type="text" id="name"><br>
+
+<label>Email</label>
+<input type="email" id="email"><br>
+
+<label>Phone</label>
+<input type="text" id="phone"><br>
+
+<label>Country</label>
+<input type="text" id="country"><br>
+
+<label>Travel Date</label>
+<input type="date" id="date"><br>
+
+<label>Number of People</label>
+<input type="number" id="people"><br>
+
+<label>Message</label>
+<textarea id="message"></textarea><br>
+
+<button type="submit">Submit</button>
+
+</form>
+
+</section>
+
+<footer>
+<p>We will contact you soon</p>
+</footer>
+
+</body>
+</html>
